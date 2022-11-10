@@ -1,13 +1,8 @@
 package Resources;
 
-import java.time.Duration;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 
 public class CommonUtilities {
@@ -35,10 +30,8 @@ public class CommonUtilities {
 
 	// This method is use for handling waits for specific visibility of element
 	// located
-	public static void handleExplicitWait(int duration, WebElement element) {
+	// public static void handleExplicitWait(int duration, WebElement element) {
 
-		WebDriverWait wb = new WebDriverWait(driver, Duration.ofSeconds(duration));
-		wb.until(ExpectedConditions.visibilityOf(element));
-	}
-
+	// WebDriverWait wb = new WebDriverWait(driver, Duration.ofSeconds(duration));
+	// wb.until(ExpectedConditions.visibilityOf(element));
 }

@@ -21,11 +21,11 @@ public class VerifyLogin extends BaseClass {
 
 		obj.enterUsername().sendKeys(Constant.username);
 		
-		CommonUtilities.handleExplicitWait(10, obj.enterPassword());
+		//CommonUtilities.handleExplicitWait(10, obj.enterPassword());
 
 		obj.enterPassword().sendKeys(Constant.password);
 
-		CommonUtilities.handleExplicitWait(15, obj.clickOnLogIn());
+		//CommonUtilities.handleExplicitWait(15, obj.clickOnLogIn());
 		
 		obj.clickOnLogIn().click();
 		

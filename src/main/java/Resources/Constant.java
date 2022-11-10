@@ -6,7 +6,7 @@ public class Constant {
 
 	public static String password="Anudip123";
 	
-	public static String expectedString="Please check your Please check your and password. If you still can't log in, contact your Salesforce administrator. and password. If you still can't log in, contact your Salesforce administrator.";
+	public static String expectedString="Please check your username and password. If you still can't log in, contact your Salesforce administrator.";
 	
 	public static String firstname="Anudip";
 	
