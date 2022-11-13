@@ -32,6 +32,6 @@ public class CommonUtilities {
 	// located
 	// public static void handleExplicitWait(int duration, WebElement element) {
 
-	// WebDriverWait wb = new WebDriverWait(driver, Duration.ofSeconds(duration));
-	// wb.until(ExpectedConditions.visibilityOf(element));
+	// WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(duration));
+	// wait.until(ExpectedConditions.visibilityOf(element));
 }
