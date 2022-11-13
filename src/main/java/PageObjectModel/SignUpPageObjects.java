@@ -17,6 +17,7 @@ public class SignUpPageObjects {
 	private By userphone = By.xpath("//input[@name='UserPhone']");
 	private By country = By.xpath("//select[@name='CompanyCountry']");
 	private By checkbox = By.xpath("(//div[@class='checkbox-ui'])[1]");
+	private By state = By.xpath("//select[@name='CompanyState']");
 
 	public SignUpPageObjects(WebDriver driver2) {
 
@@ -57,5 +58,8 @@ public class SignUpPageObjects {
 
 	public WebElement ClickOnCheckBox() {
 		return driver.findElement(checkbox);
+	}
+	public WebElement SelectState() {
+		return driver.findElement(state);
 	}
 }

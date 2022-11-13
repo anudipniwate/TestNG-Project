@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-13T16:28:26 IST" name="Suite" finished-at="2022-11-13T16:28:48 IST" duration-ms="22641">
+    <groups>
+    </groups>
+    <test started-at="2022-11-13T16:28:26 IST" name="Test" finished-at="2022-11-13T16:28:48 IST" duration-ms="22641">
+      <class name="TestCases.VerifySignup">
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:TestCases.VerifySignup@2145b572]" started-at="2022-11-13T16:28:26 IST" name="LaunchURL" finished-at="2022-11-13T16:28:30 IST" duration-ms="4715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="signup()[pri:0, instance:TestCases.VerifySignup@2145b572]" started-at="2022-11-13T16:28:30 IST" name="signup" finished-at="2022-11-13T16:28:44 IST" duration-ms="13989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- TestCases.VerifySignup -->
+      <class name="TestCases.VerifyLogin">
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:TestCases.VerifyLogin@6e171cd7]" started-at="2022-11-13T16:28:44 IST" name="LaunchURL" finished-at="2022-11-13T16:28:48 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="login()[pri:0, instance:TestCases.VerifyLogin@6e171cd7]" started-at="2022-11-13T16:28:48 IST" name="login" finished-at="2022-11-13T16:28:48 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- TestCases.VerifyLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

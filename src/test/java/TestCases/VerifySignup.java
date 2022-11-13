@@ -37,7 +37,10 @@ public class VerifySignup extends BaseClass {
 		CommonUtilities.handleStaticDropdown(SPO.SelectEmployees(), 3);
 
 		// Country dropdown
-		CommonUtilities.handleStaticDropdown(SPO.SelectCountry(), 30);
+		CommonUtilities.handleStaticDropdown(SPO.SelectCountry(), 1);
+		
+		// State dropdown
+		CommonUtilities.handleStaticDropdown(SPO.SelectState(), 5);
 
 		/*
 		 * WebElement JT = SPO.SelectJobTitle(); Select s = new Select(JT);

@@ -1,0 +1,5 @@
+Resources\Constant.class
+Resources\BaseClass.class
+PageObjectModel\LoginPageObjects.class
+PageObjectModel\SignUpPageObjects.class
+Resources\CommonUtilities.class

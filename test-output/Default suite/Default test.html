@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 03 23:08:41 IST 2022</td>
+<td>Started on:</td><td>Thu Nov 10 13:24:35 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11693 ms)</td>
+<tr><td>Total time:</td><td>19 seconds (19757 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestCases.VerifyLogin.login()'><b>login</b><br>Test class: TestCases.VerifyLogin</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Please check your Please check your and password. If you still can&apos;t log in, contact your Salesforce administrator. and password. If you still can&apos;t log in, contact your Salesforce administrator.] but found [Please check your username and password. If you still can&apos;t log in, contact your Salesforce administrator.]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at Resources.CommonUtilities.handleAssertions(CommonUtilities.java:26)
-	at TestCases.VerifyLogin.login(VerifyLogin.java:28)
+<td title='TestCases.VerifySignup.signup()'><b>signup</b><br>Test class: TestCases.VerifySignup</td>
+<td><div><pre>java.lang.UnsupportedOperationException: You may not select a disabled option
+	at org.openqa.selenium.support.ui.Select.assertOptionIsEnabled(Select.java:326)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:318)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:301)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:180)
+	at Resources.CommonUtilities.handleStaticDropdown(CommonUtilities.java:17)
+	at TestCases.VerifySignup.signup(VerifySignup.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,13 +111,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace531373404", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace531373404'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Please check your Please check your and password. If you still can&apos;t log in, contact your Salesforce administrator. and password. If you still can&apos;t log in, contact your Salesforce administrator.] but found [Please check your username and password. If you still can&apos;t log in, contact your Salesforce administrator.]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at Resources.CommonUtilities.handleAssertions(CommonUtilities.java:26)
-	at TestCases.VerifyLogin.login(VerifyLogin.java:28)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1262477422", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1262477422'><pre>java.lang.UnsupportedOperationException: You may not select a disabled option
+	at org.openqa.selenium.support.ui.Select.assertOptionIsEnabled(Select.java:326)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:318)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:301)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:180)
+	at Resources.CommonUtilities.handleStaticDropdown(CommonUtilities.java:17)
+	at TestCases.VerifySignup.signup(VerifySignup.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -146,8 +148,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>TestCases.VerifyLogin@59fd97a8</td></tr>
+<td>15</td>
+<td>TestCases.VerifySignup@59fd97a8</td></tr>
 </table><p>
 </body>
 </html>
